@@ -1,0 +1,42 @@
+.header {
+  background-color: #2c0e3a;
+  height: 10vh;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+.logo {
+  height: 40px;
+  margin: 15px 0;
+  /* width: 100px; */
+}
+
+.score {
+  color: #fff;
+}
+
+.value {
+  color: #fec653;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.score-timer-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.timer-logo {
+  height: 22px;
+  margin-right: 6px;
+  margin-left: 30px;
+}
